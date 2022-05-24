@@ -6,7 +6,7 @@ function App() {
   return (
     <>
 <Navbar title=/*"Chitkara University Punjab Campus"*/
-"Chandigarh University" abouttxt="About Cu"/>
+"Chitkara University" abouttxt="About Cu"/>
 <Component2/>
 </>
 
