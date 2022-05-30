@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 export default function Navbar(props)
 
-{
+{ 
   return (
     <>
       <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
@@ -33,8 +34,8 @@ export default function Navbar(props)
               </li>
             </ul>
             <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"onClick={props.toggleMode} />
-            <label class="form-check-label" for="flexSwitchCheckDefault"className="navbar-brand">Enable Dark Mode</label>
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled"  onClick={props.toggleMode} />
+  <label class="form-check-label" for="flexSwitchCheckDisabled">Enable Dark Mode</label>
 </div>
           </div>
         </div>

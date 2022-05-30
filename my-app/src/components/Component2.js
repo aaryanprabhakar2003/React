@@ -49,7 +49,7 @@ export default function Component2() {
       color: "white",
       backgroundColor: "black"
     })
-    const[btntext,setbtntext]=useState("initial state")
+    //const[btntext,setbtntext]=useState("initial state")
     const togglestyle=()=>{
       if (myStyle.color=="white"){
         setMyStyle({color: "black",
