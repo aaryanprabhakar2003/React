@@ -23,21 +23,6 @@ export default class App3 extends Component {
       })
       this.setState({student:ppl})
   }
-  /*render() {
-      return (
-          <div className="App3">
-          {this.state.student.map((student)=>{
-              <Students name={student.name}
-              marks={student.marks}
-              increment={this.increment}
-              />
-          })}
-
-
-          </div>
-          
-      )
-  }*/
   render(){
     return(
         <div className="App3">
